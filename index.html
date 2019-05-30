@@ -7,9 +7,9 @@
 
   </head>
   <body>
+    <main class="main-container">
+      <h1>DE Pricing Calculator</h1>
     <div id="options">
-
-
     <select id="platform" class="custom-select">
       <option selected>Platform</option>
       <option value="laptops">Laptops</option>
@@ -156,7 +156,28 @@
 
     <button type="button" class="final-btn btn btn-success">Apply</button>
   </div>
-    <div class="final-price">
+    <section class="final-price">
+      <div class="model-specs">
+        <h3>Specs</h3>
+        <p id="model">Model</p>
+        <p id="ff">Form Factor</p>
+        <p id="hdd">HDD</p>
+        <p id="dvd">Optical Drive</p>
+        <p id="windows">Windows OS</p>
+      </div>
+      <div class="cost">
+          <h3>Cost</h3>
+          <p id="model-price">0</p>
+          <p id="ff-price">0</p>
+          <p id="hdd-price">0</p>
+          <p id="dvd-price">0</p>
+          <p id="windows-price">0</p>
+        </div>
+    </section>
+    <div>
+        <p id="final"></p>
+    </div>
+    <!-- <div class="final-price">
       <table class="table">
         <tr>
           <th>Specs</th>
@@ -186,18 +207,8 @@
     </div>
     <div>
       <h1 id="final">Final Price</h1>
-    </div>
-
-    <button class="mario-bt left" accesskey="j">j</button>
-    <button class="mario-bt stop" accesskey="k">k</button>
-    <button class="mario-bt right" accesskey="l">l</button>
-    <button class="mario-bt jump-left" accesskey="i">i</button>
-    <button class="mario-bt jump-right" accesskey="o">o</button>
-
-    <section class="background">
-      <div class="mario"></div>
-    </section>
-
+    </div> -->
+    </main>
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

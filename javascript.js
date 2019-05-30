@@ -59,7 +59,7 @@ $(document).ready(function(){
 
       if (modelPrice != "Check Online") {
         var total = modelPrice + +ffPrice + hddPrice + windowsPrice;
-      $('#final').text("Final Price: " + total);
+      $('#final').text(`Final Price: $${total}`);
     } else {
       $('#final').text("Final Price: Check Online");
     }
